@@ -2,7 +2,8 @@
 # Personal Portfolio:setup mobile skeleton
 
 > This is the mobile version of the personal portfolio website created with HTML5 and CSS. Html and Css linters have been added to help catch errors and make the coding very easy and bug free!!!
-![Screen shot of project](images/Screen shot of project.jpg)
+
+![screenshot](./project_Screenshot.JPG)
 
 Additional description about the project and its features.
 
