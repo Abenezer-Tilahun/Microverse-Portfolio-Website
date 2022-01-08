@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500,700&display=swap');
 
 * {
   margin: 0;
@@ -19,7 +19,7 @@ body {
   max-width: 400px;
   width: 100%;
   min-height: 100vh;
-  background-color: #e5e5e5;
+  background-color: #fff;
 }
 
 .header {
@@ -36,9 +36,11 @@ body {
   width: 76px;
   height: 20px;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 18px;
   line-height: 20px;
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
 .content i {
@@ -83,6 +85,8 @@ body {
 
 .social-media a {
   text-decoration: none;
+  display: inline-block;
+  margin: 0 10px 0 0;
 }
 
 .social-media a i {
@@ -92,6 +96,7 @@ body {
 
 .about-my-self p {
   line-height: 24px;
+  font-weight: 400;
   color: #344563;
   margin: 12px 0;
 }
