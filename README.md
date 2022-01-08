@@ -3,7 +3,7 @@
 
 > This is the mobile version of the personal portfolio website created with HTML5 and CSS. Html and Css linters have been added to help catch errors and make the coding very easy and bug free!!!
 
-![screenshot](./project_Screenshot.JPG)
+![screenshot](images/project_Screenshot.JPG)
 
 Additional description about the project and its features.
 
