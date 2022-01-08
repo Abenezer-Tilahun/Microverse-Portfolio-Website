@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family:
+    'Poppins',
+    sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+body {
+  max-width: 400px;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #fff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 44px;
+  padding: 44px 30px;
+  background-color: white;
+}
+
+.my_logo {
+  color: #6070ff;
+  width: 130px;
+  height: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.content i {
+  color: #6070ff;
+  font-size: 25px;
+}
+
+.about-my-self {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 65px 30px;
+  background: url(images/header-background-mobile.png) no-repeat;
+  background-size: contain;
+  min-height: 100vh;
+}
+
+.about-my-self h1 {
+  height: 150px;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  margin: 12px 0;
+}
+
+.social-media {
+  height: 20px;
+  margin: 12px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media li {
+  margin-right: 10px;
+  list-style-type: none;
+}
+
+.social-media a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 10px 0 0;
+}
+
+.social-media a i {
+  font-size: 25px;
+  color: #505f79;
+}
+
+.about-my-self p {
+  line-height: 24px;
+  font-weight: 400;
+  color: #344563;
+  margin: 12px 0;
+}
+
+.about-my-self h4 {
+  height: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #7f8cff;
+  margin: 12px 0;
+}
