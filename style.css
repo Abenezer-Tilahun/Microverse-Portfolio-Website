@@ -175,6 +175,7 @@ button:disabled {
   grid-template-columns: repeat(1, 1fr);
   background-color: #e5e5e5;
   grid-gap: 88px;
+  justify-items: center;
 }
 
 .work-card {
@@ -360,6 +361,20 @@ button:disabled {
   width: 327px;
   border-bottom: 1px solid #dfe1e6;
   padding-bottom: 20px;
+}
+
+.tech {
+  width: 327px;
+  height: 24px;
+  left: 12px;
+  right: 78px;
+  top: calc(50% - 24px / 2);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #000;
 }
 
 /**************** work section css end ************/
