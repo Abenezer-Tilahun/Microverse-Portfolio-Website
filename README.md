@@ -3,7 +3,7 @@
 
 > This is the add a contact form and finish the mobile version  of developing my portfolio as a microverse student with Mobile skeleton setup using basic HTML5 tag, CSS3, using forms with HTML5 validations, applying User Experience (UX) and linters!!!
 
-![screenshot](images/Contact-form-screenshoot.png)
+![screenshot](images/Contact-form-screenshoot.PNG)
 
 Additional description about the project and its features.
 
