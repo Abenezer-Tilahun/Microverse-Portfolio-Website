@@ -377,4 +377,166 @@ button:disabled {
   color: #000;
 }
 
-/**************** work section css end ************/
+.contact-me {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 779px;
+  position: absolute;
+  margin-top: 1020px;
+  margin-left: -30px;
+  border-top-left-radius: 100px;
+  background-color: #6070ff;
+  background-image: url(images/contact.png);
+  background-repeat: no-repeat;
+}
+
+.contact-me h2 {
+  height: 56px;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  padding-top: 103px;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+.contact-me p {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  width: 327px;
+  height: 102px;
+  margin: 12px 24px -30px 24px;
+}
+
+#name {
+  display: block;
+  box-sizing: border-box;
+  min-width: 327px;
+  height: 48px;
+  border-radius: 8px;
+  background-color: white;
+  border: 1px solid #cfd8dc;
+  margin-right: 24px;
+  margin-left: 24px;
+  margin-top: 87px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+}
+
+#email {
+  padding-right: 16px;
+  font-weight: 400;
+  box-sizing: border-box;
+  font-style: normal;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+  display: block;
+  width: 327px;
+  height: 48px;
+  border-radius: 8px;
+  background-color: white;
+  border: 1px solid #cfd8dc;
+  margin-right: 24px;
+  margin-left: 24px;
+  margin-top: 20px;
+  padding-left: 16px;
+}
+
+#msg {
+  width: 327px;
+  box-sizing: border-box;
+  height: 170px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 18px;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  padding: 15px 38px 15px 16px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+[placeholder*="Write"] {
+  color: #b3bac5;
+}
+
+.homepage-indicator {
+  position: relative;
+  width: 134px;
+  height: 5px;
+  border-radius: 10px;
+  color: #0d151e;
+  bottom: -35px;
+  left: -50px;
+}
+
+.form-button {
+  width: 140px;
+  height: 48px;
+  color: #6070ff;
+  padding: 12px 16px;
+  position: static;
+  left: 24px;
+  font-weight: 500;
+  font-size: 17px;
+  font-style: normal;
+  margin-left: 24px;
+  margin-top: 22px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+  .contact-me {
+    display: flex;
+    flex-direction: column;
+    width: 429px;
+    height: 779px;
+    position: absolute;
+    margin-top: 1020px;
+    margin-left: -30px;
+    border-top-left-radius: 100px;
+    background-color: #6070ff;
+    background-image: url(images/contact-bk.png);
+    background-repeat: no-repeat;
+  }
+
+  .contact-me p {
+    width: 327px;
+    height: 102px;
+    margin: 12px 24px -30px 40px;
+  }
+
+  #name {
+    margin-left: 50px;
+    margin-top: 87px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  #email {
+    margin-left: 50px;
+  }
+
+  #msg {
+    margin-left: 50px;
+  }
+
+  .form-button {
+    margin-left: 50px;
+  }
+}

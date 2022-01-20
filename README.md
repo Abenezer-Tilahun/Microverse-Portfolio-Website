@@ -1,5 +1,6 @@
 
-# Personal Portfolio:setup mobile skeleton
+# Personal Portfolio:Add contact form and setup mobile skeleton
+
 
 > This is the Desktop version of developing my portfolio as a microverse student with Mobile skeleton setup using basic HTML5 tag, CSS3 and applying linters!!!
 
@@ -49,7 +50,8 @@ Give a ⭐️ if you like this project!
 
 - Microverse
 - Figma
-- My coding partners 
+- My coding partners(@jbrime15)
+)
 
 
 ## 📝 License
