@@ -1,9 +1,9 @@
 
-# Personal Portfolio:Add contact form and setup mobile skeleton
+# Personal Portfolio:setup Desktop version 
 
-> This is the add a contact form and finish the mobile version  of developing my portfolio as a microverse student with Mobile skeleton setup using basic HTML5 tag, CSS3, using forms with HTML5 validations, applying User Experience (UX) and linters!!!
+> This is the Desktop version  of developing my portfolio as a microverse student with Mobile skeleton setup using basic HTML5 tag, CSS3, using forms with HTML5 validations, applying User Experience (UX) and linters!!!
 
-![screenshot](images/Contact-form-screenshoot.PNG)
+![screenshot](images/Desktop-version-screenshoot.jpg)
 
 Additional description about the project and its features.
 
