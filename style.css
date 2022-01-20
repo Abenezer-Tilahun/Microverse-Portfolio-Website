@@ -500,4 +500,43 @@ button:disabled {
   text-align: center;
 }
 
-/**************** work section css end ************/
+@media only screen and (max-width: 480px) {
+  .contact-me {
+    display: flex;
+    flex-direction: column;
+    width: 429px;
+    height: 779px;
+    position: absolute;
+    margin-top: 1020px;
+    margin-left: -30px;
+    border-top-left-radius: 100px;
+    background-color: #6070ff;
+    background-image: url(images/contact-bk.png);
+    background-repeat: no-repeat;
+  }
+
+  .contact-me p {
+    width: 327px;
+    height: 102px;
+    margin: 12px 24px -30px 40px;
+  }
+
+  #name {
+    margin-left: 50px;
+    margin-top: 87px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  #email {
+    margin-left: 50px;
+  }
+
+  #msg {
+    margin-left: 50px;
+  }
+
+  .form-button {
+    margin-left: 50px;
+  }
+}
