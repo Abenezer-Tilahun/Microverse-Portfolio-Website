@@ -1,9 +1,9 @@
 
-# Personal Portfolio:setup mobile skeleton
+# Personal Portfolio:Add contact form and setup mobile skeleton
 
-> This is the mobile version of developing my portfolio as a microverse student with Mobile skeleton setup using basic HTML5 tag, CSS3 and applying linters!!!
+> This is the add a contact form and finish the mobile version  of developing my portfolio as a microverse student with Mobile skeleton setup using basic HTML5 tag, CSS3, using forms with HTML5 validations, applying User Experience (UX) and linters!!!
 
-![screenshot](images/project_Screenshot.JPG)
+![screenshot](images/Contact-form-screenshoot.PNG)
 
 Additional description about the project and its features.
 
@@ -19,7 +19,7 @@ Additional description about the project and its features.
 
 ## Get Started
 
-- Clone the repo by using (git clone https://github.com/your/your-project.git)
+- Clone the repo by using (git clone https://github.com/Abenezer-Tilahun/setup-and-mobile-version-skeleton.git)
 - Nagivate to the directory by using (cd your-project/)
 - Follow the HTML-CSS linters confuguration to setup linters [Link to Microverse linter docs](https://github.com/microverseinc/linters-config/tree/master/html-css)
 To get a local copy up and running follow these simple example steps.
@@ -49,7 +49,8 @@ Give a ⭐️ if you like this project!
 
 - Microverse
 - Figma
-- My coding partners 
+- My coding partners(@jbrime15)
+)
 
 
 ## 📝 License
