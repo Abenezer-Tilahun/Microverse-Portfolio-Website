@@ -580,7 +580,7 @@ body {
   }
 
   .header-text {
-    padding: 2rem 39rem;
+    padding: 2rem 27rem;
   }
 
   .work {
@@ -733,8 +733,7 @@ body {
   }
 
   .contact-form {
-    padding-left: 51rem;
-    padding-right: 51rem;
+    width: 447px;
   }
 
   .btn-contact {
