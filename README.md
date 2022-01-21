@@ -15,7 +15,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://github.com/Abenezer-Tilahun/setup-and-mobile-version-skeleton/)
+[Live Demo Link](https://abenezer-tilahun.github.io/setup-and-mobile-version-skeleton/)
 
 ## Get Started
 
