@@ -19,6 +19,18 @@ body {
   height: 100vh;
 }
 
+.parent_main {
+  filter: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.blur {
+  filter: blur(10px);
+}
+
 .button {
   display: inline-block;
   font-size: 1.7rem;
@@ -80,7 +92,7 @@ body {
   font-weight: 500;
 }
 
-.option {
+.Menu-link {
   color: white;
   text-decoration: none;
 }
