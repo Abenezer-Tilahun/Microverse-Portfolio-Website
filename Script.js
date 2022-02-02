@@ -1,4 +1,3 @@
-// Mobile menu start////////////////////
 const overlay = document.querySelector('.overlay');
 const Menulinks = document.querySelectorAll('.Menu-link');
 const btnCloseMenu = document.querySelector('.close-menu');
@@ -25,9 +24,6 @@ for (let i = 0; i < Menulinks.length; i += 1) {
   Menulinks[i].addEventListener('click', closeMenu);
 }
 
-// Mobile menu end////////////////////
-
-// Popup Window start////////////////////
 const data = {
   project1: {
     name: 'Tonic',
@@ -88,6 +84,8 @@ const job = document.getElementById('job');
 const year = document.getElementById('data');
 const descrition = document.getElementById('description');
 const tags = document.getElementById('tags');
+const sourceLink = document.querySelector('.btn-element-SRC');
+const demoLink = document.querySelector('.btn-element-LIVE');
 const button1 = document.querySelector('#btn-1');
 const button2 = document.querySelector('#btn-2');
 const button3 = document.querySelector('#btn-3');
@@ -116,7 +114,55 @@ function changePopup(order) {
     element.innerHTML = `${project.tags[i]}`;
     tags.appendChild(element);
   }
+  sourceLink.action = project.sourceLink;
+  demoLink.action = project.demoLink;
   openPopUp();
+  for (let i = 0; i < data.length; i += 1) {
+    document.querySelector('popup').innerHTML = `
+    <div class="card popup desk">
+      <div>
+        <div class="card-content desk">
+          <h3 class="heading-secondary desk">${project[i].nameID}</h3>
+          <span> <a onclick="closePopUp()" href="javascript:void(0)" class="popup-close-btn">X</a></span>
+      </div>
+      <ul class="card-info desk">
+      <li id="companyName">${project[i].companyName}CANOPY</li>
+      <li><img src="images/section-work/Counter.svg" alt="dot" class="card-info-dot" /></li>
+      <li class="input-text" id="job"> ${project[i].job} Back End Dev</li>
+      <li><img src="images/section-work/Counter.svg" alt="dot" class="card-info-dot" /></li>
+      <li class="input-text" id="data">${project[i].year} 2022</li>
+    </ul>
+      </div>
+      <div class="card-img desk" id="img">
+          <img src="${project[i].img}" class="flex-item1" alt="${project[i].nameID} project screenshot"/>
+          <img src="${project[i].img}" class="desk-item1" alt="${project[i].nameID} project screenshot"/>
+      </div>
+      <div class="desk-pop">
+          <div class="first">
+            <p "text-secondary mob desk" id="description">
+              ${project[i].description}
+            </p>
+          </div>
+          <div class="second">
+              <ul "card-tags desk" id="tags">
+              ${tags}
+              </ul>
+              <ul class="line">
+              ${tags}
+              </ul>
+              <div class="btn-element">
+                <a href="${project[i].seeLive}" class="btn-element-LIVE">See Live
+                  <i class="fa fa-external-link" aria-hidden="true"></i>
+                </a>
+                <a href="${project[i].seeSource}" class="btn-element-SRC">See Source
+                  <i class="fa fa-github-square" aria-hidden="true"></i>
+                </a>
+            </div>
+          </div>
+      </div>
+      </div>
+  `;
+  }
 }
 
 function closePopUp() {
@@ -145,5 +191,3 @@ button4.addEventListener('click', () => {
 
 popupOverlay.addEventListener('click', closePopUp);
 btnClosePop.addEventListener('click', closePopUp);
-
-// Popup Window end /////////////////////
