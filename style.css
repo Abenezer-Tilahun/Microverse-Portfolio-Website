@@ -199,15 +199,28 @@ ul {
   background-color: rgba(24, 24, 24, 0.158);
   backdrop-filter: blur(0.6rem);
   z-index: 100;
+  overflow: auto;
 }
 
 .popup {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  width: 95%;
-  transform: translate(-50%, -50%);
-  z-index: 100;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  border-radius: 16px;
+  animation-name: animatetop;
+  animation-duration: 0.5s;
+}
+
+@keyframes animatetop {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 .text-secondary.mob {
@@ -233,15 +246,16 @@ ul {
 .btn-element {
   display: inline-flex;
   flex-direction: row;
+  margin-right: 5%;
   gap: 1rem;
 }
 
 .popup-close-btn {
-  height: 2rem;
+  height: 1.5rem;
   position: absolute;
-  width: 1.4rem;
-  right: 2rem;
-  top: 2.8rem;
+  width: 30%;
+  right: 0.5rem;
+  top: 1.8rem;
 }
 
 /* Popup end */
@@ -651,16 +665,18 @@ ul {
   }
 
   .second {
-    margin-top: -5rem;
-    width: 30%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
     display: flex;
-    flex-direction: column;
-    gap: 3rem;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: -19px 0 29px 4px;
   }
 
   .card-tags.desk {
     display: flex;
     justify-content: center;
+    margin-left: -40px;
   }
 
   .popup-button.desk {
