@@ -1,7 +1,7 @@
 
 # Personal Portfolio:setup Desktop version 
 
-> This is the Desktop version  of developing my portfolio as a microverse student with Mobile skeleton setup with navigation menu in mobile version and a popup window that includes the project details in both desktop and mobile of portfolio website using basic HTML5 tag, CSS3,Javascript and using forms with HTML5 validations for contact form , applying User Experience (UX) and linters!!!
+> This is the Desktop version  of developing my portfolio as a microverse student with Mobile skeleton setup with navigation menu in mobile version and a popup window that includes the project details in both desktop and mobile of portfolio website using basic HTML5 tag, CSS3,Javascript,applying User Experience (UX) and linters and also Added forms with HTML5 validations for contact form and preserve data in the browser !!!
 
 ![screenshot](images/Desktop-version-screenshoot.jpg)
 
