@@ -462,47 +462,49 @@ ul {
 }
 
 .contact {
-  position: relative;
+  padding-left: 30px;
+  padding-right: 30px;
   display: flex;
+  margin-left: -8px;
   flex-direction: column;
   align-items: center;
-  gap: 1.5rem;
   background-color: #6070ff;
-  border-top-left-radius: 10rem;
-  margin-top: -10rem;
-  padding: 10.3rem 2.4rem 4.5rem 2.4rem;
-  overflow: hidden;
+  background-image: url('images/section-about/contact-form-shapes-mobile.svg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-top-left-radius: 5rem;
 }
 
-.contact-text {
-  display: flex;
-  flex-direction: column;
-  gap: 1.2rem;
-  text-align: center;
-  align-items: center;
+.contact_container {
+  width: 100%;
+  border-radius: 8px;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  margin: 10px 0;
+  height: 48px;
+  padding: 0 1rem;
 }
 
 .heading-tertiary {
+  margin-top: 140px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  font-weight: 700;
-  color: #fff;
 }
 
 .secondary-text {
-  font-size: 20px;
-  line-height: 28px;
-  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
   color: #ebebff;
   text-align: center;
-}
-
-.contact-bg {
-  position: absolute;
-  top: 50%;
-  right: 0;
-  transform: translateY(-50%);
-  height: 95%;
+  margin: 0.8rem 0 2.8rem;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
 }
 
 /* Alert message start */
@@ -613,7 +615,6 @@ textarea {
   line-height: 24px;
   background-color: #fff;
   margin-top: 10px;
-  margin-left: 120px;
 }
 
 .submit_btn::after {
@@ -841,18 +842,17 @@ textarea {
 
   .contact {
     background-image: url(images/contact-form-background-shapes.svg);
-    background-repeat: no-repeat;
-    background-position-y: 100%;
-    background-position-x: 50%;
-    background-size: 80%;
   }
 
-  .contact-text {
-    padding: 0 30rem;
+  .contact__container {
+    width: 40%;
   }
 
-  .contact-form {
-    width: 447px;
+  .form_li_submit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .btn-contact {
