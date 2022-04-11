@@ -3,7 +3,7 @@
 
 > This is the Desktop version  of developing my portfolio as a microverse student with Mobile skeleton setup with navigation menu in mobile version and a popup window that includes the project details in both desktop and mobile of portfolio website using basic HTML5 tag, CSS3,Javascript,applying User Experience (UX) and linters and also Added forms with HTML5 validations for contact form and preserve data in the browser !!!
 
-![screenshot](images/Project-scrrenshot.gif)
+![screenshot](images/project-screenshot.gif)
 
 My goal here is to Build a personal portfolio site from scratch, with focus on a mobile first design. take a peak at what i'v built [Live Demo Link](https://abenezer-tilahun.github.io/Microverse-Portfolio-Website/)
 
