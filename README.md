@@ -77,7 +77,7 @@ npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standa
 
 - GitHub: [@githubhandle](https://github.com/Abenezer-Tilahun)
 - Twitter: [@twitterhandle](https://twitter.com/AbenezerTilah11)
-- LinkedIn: [LinkedIn](linkedin.com/in/abenezer-tilahun-4b4b43137)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/abenezer-tilahun/)
 
 ## 🤝 Contributing
 
